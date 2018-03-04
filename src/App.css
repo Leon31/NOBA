@@ -1,0 +1,44 @@
+.App {
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+a, a:hover, a:active, a:visited, a::selection, a:scope {
+  text-decoration: none;
+  color: black; }
+
+li, ul {
+  list-style-type: none; }
+
+input:active, input:visited, input:hover, input:focus {
+  text-decoration: none; }
+
+.fixPos {
+  position: fixed; }
+
+.absPos {
+  position: absolute; }
+
+.menu_li {
+  margin: 0 1vw;
+  color: black;
+  font-family: Helvetica;
+  font-weight: 600; }
+
+.current {
+  line-height: 1em;
+  position: relative; }
+
+.current::after {
+  border-bottom: 0.17em solid black;
+  content: "";
+  left: 0;
+  margin-top: calc(0.15em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 50%; }
